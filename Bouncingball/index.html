@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="scripts/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+       <div class="row">
+           <div class="col-xs-12 text-center head">
+               <h4>Bouncing ball</h4>
+               <h6>- Typito Summer Internship assignment -</h6>
+               
+               <p>[ Select the required speed and press play ]</p>
+           </div>
+       </div>
+       
+        <div id="buttons" class="row">
+            <div class="col-xs-12 col-sm-3 text-center">
+            <button class="play-anim">Play</button>
+            </div>
+            <div class="col-xs-4 col-sm-2 text-center">
+            <button id="speedup0">Speed x0.5</button>
+            </div>
+            <div class="col-xs-4 col-sm-2 text-center">
+            <button id="speedup1">Speed x1.0</button>
+            </div>
+            <div class="col-xs-4 col-sm-2 text-center">
+            <button id="speedup2">Speed x1.5</button>
+            </div>
+            <div class="col-xs-12 col-sm-3 text-center">
+            <button id="play-not" >Stop</button>
+            </div>
+
+        </div>
+       
+        <div class="row">
+            <div class="col-xs-12" id="parent-div">
+               <div id="child-div">
+ <svg id="bouncing-ball" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #a0a0a0;
+                        opacity: 0.5;
+                      }
+
+                      .cls-2 {
+                        fill: #fcff6e;
+                      }
+                    </style>
+                  </defs>
+                  <title>typito</title>
+                  <g id="ball">
+                      <g id="t_shadow">
+                          <g id="t_shadowbase">
+                  <ellipse id="shadow" class="cls-1" cx="488" cy="976" rx="438.81" ry="27.87"/>  
+                      </g>
+                          </g>                  
+                      <g id="t_ball">
+                          <g id="t_ballbase">
+                      <circle id="ball" class="cls-2" cx="488" cy="488" r="488"/>
+                          </g>
+                      </g>
+                  </g>
+                </svg>   
+               </div>
+
+            </div>
+        </div>
+
+        
+        <div class="row foot">
+            <div class="col-12 text-center">
+                © 2016. All Rights Reserved. | <a href="http://www.w3schools.com">Thisisus</a>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+*{
+  body{
+    background: #0f1830;
+    color: #fff;
+  }
+    
+    a{
+    color: #fcff6e;
+    cursor: pointer;
+        &:hover{
+        color: #fff;
+        cursor: pointer;
+        }
+    }
+  
+    .head{
+    height: 15vh;
+    padding-bottom: 20px;
+        h4{
+        padding: 5vh 0 0 0;
+        text-transform: uppercase;
+        }
+    }
+    
+    #parent-div{
+    height: 62vh;
+    }
+    
+    #child-div{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+    }
+    
+    #buttons{
+        padding-top: 5vh;
+    height: 15vh;
+        button{
+        background: transparent;
+        color: #fff;
+        padding: 1.05rem 2.75rem;
+        font-weight: 1.2rem;
+        text-transform: uppercase;
+        border: .1rem solid #28aadc;
+        border-radius: 12rem;
+        transition: all .3s;
+            &:hover{
+            border: .1rem solid #fcff6e;
+            background: #fff;
+            color: #0f1830;
+            }
+        }    
+    
+    }
+    
+    .foot{
+    height: 5vh;
+    }
+    
+    
+    
+    @media only screen and (max-width: 700px){
+        #buttons button{
+        padding: 0.2rem 1.9rem;
+        margin: 10px 0;
+            font-size: 0.8em;
+            
+            #speedup0{
+            font-size: 0.6em;
+            }
+        }
+        
+        #child-div{
+        top: 20vh;
+        }
+    }
+}
