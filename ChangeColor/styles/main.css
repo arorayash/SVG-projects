@@ -1,0 +1,12 @@
+/* line 1, H:/work/typito/svg_colorchange/styles/main.scss */
+#drawing {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+
+/* line 8, H:/work/typito/svg_colorchange/styles/main.scss */
+.change_hex {
+  fill: #000 !important; }
+
+/*# sourceMappingURL=main.css.map */
